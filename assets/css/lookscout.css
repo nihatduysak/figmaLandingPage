@@ -1,0 +1,479 @@
+* {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.hero {
+    background-color: #2B63D9;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: baseline;
+    border-bottom: 1px solid #648EF7;
+}
+
+.home {display: none;}
+.ourProducts {display: none;}
+.resources {display: none;}
+.contacts {display: none;}
+.hamburgerMenu {display: block;}
+.login {display: none;}
+.signup {display: none;}
+
+.menu {
+    display: flex;
+    color: var(--base-white, #FFF);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px; /* 146.667% */
+    text-decoration: none;
+    gap: 32px;
+}
+
+.loginSection {
+    gap: 24px;
+    color: var(--base-white, #FFF);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 146.667% */
+}
+
+.hero a {
+    text-align: center;
+}
+
+.loginSection {
+    display: flex;
+    background-color: #2B63D9;
+}
+
+.resource {
+    display: flex;
+}
+
+.introduction {
+    background-color: #2B63D9;
+}
+
+.introduction h1 {
+    color: var(--base-white, #FFF);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px; /* 122.222% */
+    letter-spacing: -0.72px;
+}
+
+.introduction h5 {
+    color: var(--primary-200, #B1CCFB);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px; /* 144.444% */
+    letter-spacing: -0.1px;
+}
+
+.introduction .getStarted {
+    color: var(--base-white, #FFF);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px; /* 146.667% */
+    border-radius: 6px;
+    background: var(--primary-600, #437EF7);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
+    padding: 12px 18px;
+}
+
+.introduction h6 {
+    color: var(--base-white, #FFF);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.1px;
+}
+
+.secondChapter {
+    background-color: #151B28;
+}
+
+.proud h2 {
+    color: var(--gray-700, #272D37);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px; /* 125% */
+    letter-spacing: -0.64px;
+}
+
+.proud h6 {
+    color: var(--gray-50, #5F6D7E);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.1px;
+}
+
+.c2a .title {
+    color: var(--primary-600, #437EF7);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.1px;
+}
+
+.c2a h2 {
+    color: var(--gray-700, #272D37);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px; /* 131.25% */
+    letter-spacing: -0.32px;
+}
+
+.submitMail input {
+    height: 46px;
+    padding: 12px 16px;
+    gap: 8px;
+    flex: 1 0 0;
+    padding: 12px 16px;
+}
+
+.submitMail a {
+    color: var(--base-white, #FFF);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px; /* 146.667% */
+    border-radius: 0px 6px 6px 0px;
+    background: var(--primary-600, #437EF7);
+    padding: 12px 18px;
+}
+
+.footer {
+    background: var(--gray-950, #151B28);
+}
+
+.footer h6 {
+    color: var(--neutral-800, #A5ACBA);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.1px;
+}
+
+@media (width > 375px) {
+    
+}
+
+@media (width > 768px) {
+
+    .hero {
+        .home {display: block;}
+        .ourProducts {display: block;}
+        .resources {display: block;}
+        .contacts {display: block;}
+        .hamburgerMenu {display: none;}
+        .login {display: block;}
+        .signup {display: block;}
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+    .introduction {
+        margin: 0 auto; 
+        max-width: 1280px;
+        display: flex;
+        gap: 64px;
+    }
+
+    .introText h1 {
+        margin-top: 80px;
+        margin-bottom: 24px;
+    }
+
+    .introText h5 {
+        text-align: left;
+        margin-bottom: 32px;
+    }
+
+    .introText h6 {
+        margin-top: 80px;
+        margin-bottom: 16px;
+    }
+
+    .componyLogos {
+        display: flex;
+        margin-bottom: 80px;
+    }
+
+    .headline {
+        padding: 64px 0;
+    }
+
+    .headline .messaging {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 1280px;
+        margin: 0 auto;
+        gap: 32px;
+    }
+
+    .headline h6 {
+        margin-bottom: 64px;
+    }
+
+    .headline h2, .text {
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .messageLogos {
+        margin-bottom: 20px;
+    }
+
+    .organization h4 {
+        margin-bottom: 12px;
+    }
+
+    .organization p {
+        margin-bottom: 16px;
+    }
+
+    .features {
+        margin-top: 64px;
+    }
+    
+    .features h2, h5 {
+        text-align: center;
+    }
+
+    .featuresItem {
+        display: flex;
+        justify-content: flex-start;
+        gap: 16px;
+        margin-bottom: 32px;
+    }
+
+    .featuresTitle h4 {
+        margin-bottom: 8px;
+    }
+
+    .featuresTitle h6 {
+        margin-bottom: 12px;
+    }
+    
+    .firstChapter {
+        display: flex;
+        padding: 64px 0;
+        justify-content: center;
+    }
+
+    .learnMore {
+        display: flex;
+        gap: 6px;
+
+        color:  #437EF7;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 22px; /* 146.667% */
+    }
+
+    .secondChapter {
+        display: flex;
+        padding: 64px 0;
+    }
+
+    .secondChapter .productFeatures h4 {
+        color: #F9F9F9;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 30px; /* 136.364% */
+        letter-spacing: -0.22px;
+    }
+
+    .secondChapter .productFeatures h6 {
+        color:#A5ACBA;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        letter-spacing: -0.1px;
+    }
+
+    .customers {
+        /* text-align: center; */
+        padding: 64px 32px;
+    }
+
+    .customers h2 {
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .cusDescription {
+        text-align: center;
+    } 
+
+    .card {
+        margin-top: 40px;
+        text-align: center;
+        padding: 32px;
+        border-radius: 10px;
+        background: var(--neutral-100, #F8F9FB);
+    }
+
+    .card h3 {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .card .profile {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .card .profile {
+        display: flex;
+    }
+
+    .latestBlog h2 {
+        margin-bottom: 16px;
+    }
+
+    .proud {
+        text-align: center;
+    }
+
+    .proud h2 {
+        margin-bottom: 16px;
+    }
+
+    .proud h6 {
+        margin-bottom: 64px;
+    }
+
+    .proudLogos {
+        display: flex;
+        gap: 64px;
+        justify-content: center;
+        margin-bottom: 64px;
+    }
+
+    .blog {
+        margin-bottom: 64px;
+    }
+
+    .blogDescription {
+        text-align: center;
+        margin-bottom: 64px;
+    }
+
+    .itemImg {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .itemTitle {
+        color: var(--gray-700, #272D37);
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 30px; /* 136.364% */   
+        letter-spacing: -0.22px;
+        margin-bottom: 16px;
+    } 
+
+    .item p {
+        color: var(--gray-50, #5F6D7E);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        letter-spacing: -0.1px;
+        margin-bottom: 40px;
+    }
+
+    .author {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .avatarProfile {
+        display: flex;
+        gap: 8px;
+    }
+
+    .nameTitle {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+    }
+    
+    .c2a {
+        background: var(--neutral-50, #FAFBFC);
+        text-align: center;
+        padding: 64px 32px;
+
+    }
+
+    .c2a h2 {
+        margin-bottom: 32px;
+    }
+
+    .title {
+        margin-bottom: 8px;
+    }
+
+    .submitMail {
+        margin-bottom: 32px;
+    }
+    .submitMail a {
+        padding: 14px 18px;
+    }
+
+    .checkbox {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-bottom: 64px;
+    }
+
+    .checkBoxes {
+        display: flex;
+        gap: 12px;
+    }
+
+    .footer {
+        padding: 64px 0;
+    }
+
+    .footerLogo a {
+        margin-bottom: 16px;
+    }
+
+    .footerRow {
+        display: flex; 
+        justify-content: space-between;
+    }
+
+    .socialIcon {
+        display: flex;
+        gap: 24px;
+    }
+
+    .footer h5 {
+        color: var(--neutral-200, #F9F9F9);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px; /* 150% */
+        letter-spacing: -0.1px;
+    }
+
+    .footerAll {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+}
